@@ -1,0 +1,2 @@
+ALTER TABLE Users
+ADD CONSTRAINT DefaultTimeValue DEFAULT GETDATE() FOR LastLogin
